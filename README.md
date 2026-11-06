@@ -13,10 +13,6 @@
 The implementation is modular: each feature lives in a separate Python module and can be tested independently in Jupyter. **No training from scratch is required for the pretrained detection and segmentation demos.** Reliable standing/lying classification requires an optional separately trained posture model.
 
 ## Results / Screenshots
-
-> Replace these placeholders with screenshots generated from your own run. Do not commit screenshots that you do not have permission to share.
-
-<!-- Uncomment after adding screenshots:
 ### Individual cow instance mask
 ![Cow detection and tracking](output-screenshot/cow1-pic.png)
 and also another view of instance mask
