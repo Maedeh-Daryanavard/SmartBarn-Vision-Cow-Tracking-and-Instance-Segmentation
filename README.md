@@ -15,7 +15,12 @@ The implementation is modular: each feature lives in a separate Python module an
 ## Results / Screenshots
 ### Individual cow instance mask
 ![Cow detection and tracking](output-screenshot/cow1-pic.png)
-and also another view of instance mask
+
+
+
+#### And also another view of instance mask
+
+
 ![Cow instance segmentation](output-screenshot/cow2-pic.png)
 
 ### simple model of cow detection in dark area which the related code is in folder "extera"
