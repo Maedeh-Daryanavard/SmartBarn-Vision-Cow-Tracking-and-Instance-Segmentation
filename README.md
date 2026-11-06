@@ -207,7 +207,7 @@ The SmartBarn Vision project uses real dairy-barn surveillance footage obtained 
 - **Authors:** Victor Bloch, Lilli Frondelius, Claudia Arcidiacono, Massimo Mancino, and Matti Pastell
 - **Published:** 2022
 - **DOI:** [10.5281/zenodo.6792640](https://doi.org/10.5281/zenodo.6792640)
-- **Sample video:** `Maa10.20210304_000000.mp4`
+- **Sample video:** `Maa10.20210304_090001.mp4`
 
 The dataset contains video recordings of 24 cows captured using two surveillance cameras in a research dairy barn.
 
