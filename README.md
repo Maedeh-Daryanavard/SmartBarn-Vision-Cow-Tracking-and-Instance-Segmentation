@@ -197,7 +197,26 @@ Ultralytics downloads standard checkpoints automatically when first requested. C
 - Add an interactive review tool for correcting masks and track IDs.
 - Benchmark CPU/GPU throughput, memory, mask mAP and IDF1/HOTA on held-out data.
 
-## Acknowledgments
+## Dataset and Video Sources
+
+The SmartBarn Vision project uses real dairy-barn surveillance footage obtained from [Zenodo](https://zenodo.org/), an open research repository.
+
+**Primary video dataset:**
+
+- **Dataset:** [Video of cows in a barn for training cow's feeding behavior classifier](https://zenodo.org/records/6792640)
+- **Authors:** Victor Bloch, Lilli Frondelius, Claudia Arcidiacono, Massimo Mancino, and Matti Pastell
+- **Published:** 2022
+- **DOI:** [10.5281/zenodo.6792640](https://doi.org/10.5281/zenodo.6792640)
+- **Sample video:** `Maa10.20210304_000000.mp4`
+
+The dataset contains video recordings of 24 cows captured using two surveillance cameras in a research dairy barn.
+
+The footage is used for experimental evaluation of cow detection, multi-object tracking, instance segmentation, activity monitoring, and occlusion handling.
+
+**Data availability:** Original videos are not included in this GitHub repository because of their large file sizes. Users can download the recordings directly from the Zenodo dataset page and place them in the local `videos/` directory.
+
+**Acknowledgment:** All original video recordings belong to their respective dataset creators. This repository provides an independent computer vision implementation and is not affiliated with the dataset authors. Users should review the dataset's licensing and reuse conditions before redistributing original footage or derived media.
+
 
 Built with [Ultralytics YOLO](https://github.com/ultralytics/ultralytics), [OpenCV](https://opencv.org/), [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/) and [FFmpeg](https://ffmpeg.org/). This is an independent portfolio/research project; no affiliation with Lely is claimed.
 
