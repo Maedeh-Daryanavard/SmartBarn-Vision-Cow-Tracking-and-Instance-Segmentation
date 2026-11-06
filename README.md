@@ -23,7 +23,7 @@ The implementation is modular: each feature lives in a separate Python module an
 
 ![Cow instance segmentation](output-screenshot/cow2-pic.png)
 
-### simple model of cow detection in dark area which the related code is in folder "extera"
+### simple model of cow detection in dark area which the related code is in folder "extra"
 ![Cow activity and zones](output-screenshot/cow-bw1.png)
 
 
